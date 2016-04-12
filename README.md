@@ -1,4 +1,4 @@
-# node-criteo-js
+# Criteo Node SDK
 Node Api for Criteo
 
 ## Installation
