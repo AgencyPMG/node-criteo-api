@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- test && coveralls < ./coverage/lcov.info && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,10 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }
