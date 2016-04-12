@@ -23,8 +23,8 @@ client.getCampaigns({campaignStatus: 'RUNNING'}, (error, campaigns) => {
 You can also specify options as a fourth parameter
 ```js
 var client = new Criteo(username, password, token, {
-    source: 'node-criteo-api',
-    version: 'v201305'
+    source: 'node-criteo-api', //the "source" parameter, the criteo "user agent"
+    version: 'v201305' //the version of the api
 });
 ```
 
