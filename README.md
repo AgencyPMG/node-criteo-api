@@ -1,5 +1,6 @@
 # Criteo Node SDK
 Node Api for Criteo
+[![Build Status](https://travis-ci.org/AgencyPMG/node-criteo-api.svg?branch=master)](https://travis-ci.org/AgencyPMG/node-criteo-api) [![Coverage Status](https://coveralls.io/repos/github/AgencyPMG/node-criteo-api/badge.svg?branch=master)](https://coveralls.io/github/AgencyPMG/node-criteo-api?branch=master)
 
 ## Installation
 ```
