@@ -1,0 +1,32 @@
+{
+  "name": "node-criteo-api",
+  "version": "0.0.1",
+  "description": "Node Criteo Api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgencyPMG/node-criteo-api.git"
+  },
+  "keywords": [
+    "Criteo"
+  ],
+  "author": "Chris Alvares <chris.alvares@pmg.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgencyPMG/node-criteo-api/issues"
+  },
+  "homepage": "https://github.com/AgencyPMG/node-criteo-api#readme",
+  "dependencies": {
+    "soap": "^0.13.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
