@@ -2,4 +2,4 @@
  * Criteo Api
  */
 
-module.exports = require('lib/criteo');
+module.exports = require('./lib/criteo');
