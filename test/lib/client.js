@@ -80,7 +80,7 @@ describe('Client', function() {
     describe('#getWsdlUrl', function() {
         it('should return a url', function() {
             assert.strictEqual(
-                'https://advertising.criteo.com/api/v201305/AdvertiserService.asmx?WSDL',
+                'https://advertising.criteo.com/API/v201305/AdvertiserService.asmx?WSDL',
                 client.getWsdlUrl()
             );
         });
